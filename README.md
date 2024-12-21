@@ -29,8 +29,7 @@ I'm a DevOps Engineer passionate about cloud infrastructure and automation. Curr
 <div align="center">
   
   ![Tech Stack](https://skillicons.dev/icons?i=gcp,kubernetes,gitlab,docker,terraform,jenkins,redhat,openshift,ansible)
-  
-  ![More Tech](https://skillicons.dev/icons?i=maven,gradle,python,nginx,git,github,grafana,prometheus,linux,)
+  ![More Tech](https://skillicons.dev/icons?i=maven,gradle,python,nginx,git,github,grafana,prometheus,linux)
 
 </div>
 
