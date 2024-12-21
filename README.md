@@ -28,9 +28,9 @@ I'm a DevOps Engineer passionate about cloud infrastructure and automation. Curr
 
 <div align="center">
   
-  ![Tech Stack](https://skillicons.dev/icons?i=gcp,kubernetes,gitlab,docker,terraform,ansible,maven,gradle,jenkins)
+  ![Tech Stack](https://skillicons.dev/icons?i=gcp,kubernetes,gitlab,docker,terraform,jenkins,redhat,openshift,ansible)
   
-  ![More Tech](https://skillicons.dev/icons?i=redhat,java,cs)
+  ![More Tech](https://skillicons.dev/icons?i=maven,gradle,python,nginx,git,github,grafana,prometheus,linux,)
 
   <!-- Custom Icons for tools without official skillicons -->
   <img src="https://www.vectorlogo.zone/logos/jfrog/jfrog-icon.svg" alt="JFrog" width="50" height="50"/>  
