@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laabidi Saif Eddine - DevOps Engineer Portfolio">
+    <meta name="theme-color" content="#3B82F6" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1f2937" media="(prefers-color-scheme: dark)">
+    <title>Laabidi Saif Eddine - DevOps Engineer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/devops-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style">
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+
+    <!-- Stylesheets -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            light: '#3B82F6',
+                            dark: '#60A5FA'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans dark:bg-gray-900 dark:text-gray-100 transition-colors">
+    <div class="container mx-auto px-4 max-w-6xl">
+        <!-- Navigation -->
+        <nav class="flex justify-between items-center py-6" role="navigation">
+            <div class="text-2xl font-bold">Laabidi Saif Eddine</div>
+            <div class="flex items-center space-x-4">
+                <button id="darkModeToggle" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon text-gray-800 dark:text-white"></i>
+                </button>
+                <nav class="space-x-4">
+                    <a href="#about" class="hover:text-primary-light dark:hover:text-primary-dark transition-colors">About</a>
+                    <a href="#experience" class="hover:text-primary-light dark:hover:text-primary-dark transition-colors">Experience</a>
+                    <a href="#projects" class="hover:text-primary-light dark:hover:text-primary-dark transition-colors">Projects</a>
+                    <a href="#contact" class="hover:text-primary-light dark:hover:text-primary-dark transition-colors">Contact</a>
+                </nav>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <header class="text-center py-20 mb-12 bg-gradient-to-r from-blue-50 to-blue-100 dark:from-gray-800 dark:to-gray-900 rounded-lg">
+            <img src="images/profile.png" alt="Laabidi Saif Eddine" class="mx-auto w-48 h-48 rounded-full mb-6 object-cover border-4 border-white dark:border-gray-700 shadow-lg" width="192" height="192" loading="eager">
+            <h1 class="text-4xl font-bold mb-4">Laabidi Saif Eddine</h1>
+            <p class="text-xl text-gray-600 dark:text-gray-300 mb-4" id="typed-headline" aria-live="polite"></p>
+            <p class="text-xl text-gray-600 dark:text-gray-300 mb-8">Specializing in Cloud Infrastructure, CI/CD Automation, and DevOps Best Practices</p>
+            
+            <!-- Tech Stack Icons -->
+            <div class="flex justify-center gap-6 mb-8" aria-label="Technology Stack">
+                <i class="fab fa-docker text-3xl hover:opacity-80 transition-opacity" style="color: #2496ED;" title="Docker"></i>
+                <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg" alt="Kubernetes" class="w-8 h-8 inline-block hover:opacity-80 transition-opacity" title="Kubernetes" width="32" height="32">
+                <i class="fab fa-redhat text-3xl hover:opacity-80 transition-opacity" style="color: #EE0000;" title="Red Hat"></i>
+                <i class="fab fa-google text-3xl hover:opacity-80 transition-opacity" style="color: #4285F4;" title="Google Cloud"></i>
+                <i class="fab fa-gitlab text-3xl hover:opacity-80 transition-opacity" style="color: #FC6D26;" title="GitLab"></i>
+                <i class="fab fa-git-alt text-3xl hover:opacity-80 transition-opacity" style="color: #F05032;" title="Git"></i>
+                <i class="fab fa-linux text-3xl hover:opacity-80 transition-opacity" style="color: #FCC624;" title="Linux"></i>
+            </div>
+
+            <div class="flex justify-center space-x-4">
+                <a href="https://www.linkedin.com/in/saif-eddine-laabidi-41882a189" target="_blank" rel="noopener noreferrer" class="text-2xl hover:text-primary-light dark:hover:text-primary-dark transition-colors" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/saifEddineLaabidi/saifEddineLaabidi" target="_blank" rel="noopener noreferrer" class="text-2xl hover:text-primary-light dark:hover:text-primary-dark transition-colors" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.credly.com/users/xxxxxxx" target="_blank" rel="noopener noreferrer" class="text-2xl hover:text-primary-light dark:hover:text-primary-dark transition-colors" aria-label="Certifications">
+                    <i class="fas fa-certificate"></i>
+                </a>
+                <a href="mailto:SeifEddine.Laabidi@esprit.tn" class="text-2xl hover:text-primary-light dark:hover:text-primary-dark transition-colors" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8 mb-12">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="text-gray-700 dark:text-gray-300">
+                I am a DevOps Engineer with extensive experience in cloud infrastructure, CI/CD pipelines, containerization, Red Hat systems, and .NET development. Currently working at Sofrecom Tunisie (Orange Group), I specialize in implementing and maintaining robust DevOps practices to streamline development and deployment processes. My expertise in cloud technologies, particularly Google Cloud Platform, enables me to design and implement scalable and efficient infrastructure solutions.
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6">Professional Experience</h2>
+            <div class="space-y-6">
+                <!-- Current Role -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 transition-transform hover:scale-102">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-semibold">DevOps Engineer</h3>
+                            <p class="text-gray-600 dark:text-gray-400">Sofrecom Tunisie (Orange Group)</p>
+                            <p class="text-gray-500 dark:text-gray-500">Avril 2022 - Present</p>
+                        </div>
+                        <img src="images/sofrecom.png" alt="Sofrecom Logo" class="w-16 h-16 object-contain" onerror="this.style.display='none'">
+                    </div>
+                    <p class="mt-2 text-gray-700 dark:text-gray-300">Leading DevOps initiatives and implementing cloud infrastructure solutions as part of the Orange Group ecosystem.</p>
+                </div>
+
+                <!-- Previous Role -->
+                <!-- Internships -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-12">
+            <h2 class="text-3xl font-bold mb-6">Projects</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project Card 1 -->
+                <div class="flip-card h-64">
+                    <div class="flip-card-inner">
+                        <!-- Front -->
+                        <div class="flip-card-front bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex flex-col items-center justify-center">
+                            <div class="bg-blue-100 dark:bg-blue-900 p-6 rounded-full mb-4">
+                                <i class="fas fa-cloud text-blue-600 dark:text-blue-400 text-4xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-center mb-4">Cloud Infrastructure Automation</h3>
+                            <div class="flex flex-wrap gap-2 justify-center">
+                                <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full text-sm">GCP</span>
+                                <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full text-sm">Terraform</span>
+                                <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400 rounded-full text-sm">CI/CD</span>
+                            </div>
+                        </div>
+                        <!-- Back -->
+                        <div class="flip-card-back bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex flex-col justify-center">
+                            <h3 class="text-xl font-semibold mb-4">Cloud Infrastructure Automation</h3>
+                            <p class="text-gray-700 dark:text-gray-300">Implemented infrastructure as code using Terraform and GCP, achieving 90% automation in deployment processes. Reduced deployment time by 60% and improved reliability.</p>
+                            <div class="mt-4">
+                                <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="flip-card h-64">
+                    <div class="flip-card-inner">
+                        <!-- Front -->
+                        <div class="flip-card-front bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex flex-col items-center justify-center">
+                            <div class="bg-green-100 dark:bg-green-900 p-6 rounded-full mb-4">
+                                <i class="fas fa-code-branch text-green-600 dark:text-green-400 text-4xl"></i>
+                            </div>
+                            <h3 class="text-xl font-semibold text-center mb-4">DevOps Pipeline Optimization</h3>
+                            <div class="flex flex-wrap gap-2 justify-center">
+                                <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400 rounded-full text-sm">Jenkins</span>
+                                <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400 rounded-full text-sm">Docker</span>
+                                <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-600 dark:text-green-400 rounded-full text-sm">Kubernetes</span>
+                            </div>
+                        </div>
+                        <!-- Back -->
+                        <div class="flip-card-back bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 flex flex-col justify-center">
+                            <h3 class="text-xl font-semibold mb-4">DevOps Pipeline Optimization</h3>
+                            <p class="text-gray-700 dark:text-gray-300">Designed and implemented efficient CI/CD pipelines, reducing deployment time by 60% and improving code quality.</p>
+                            <div class="mt-4">
+                                <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6">Technical Skills</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center">
+                        <i class="fas fa-cloud mr-3 text-blue-500"></i>
+                        Cloud & Infrastructure
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700 dark:text-gray-300">Google Cloud Platform</span>
+                                <span class="text-gray-600 dark:text-gray-400">95%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-blue-500 h-2 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700 dark:text-gray-300">Terraform</span>
+                                <span class="text-gray-600 dark:text-gray-400">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-blue-500 h-2 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center">
+                        <i class="fas fa-code-branch mr-3 text-green-500"></i>
+                        DevOps & CI/CD
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700 dark:text-gray-300">Docker/Kubernetes</span>
+                                <span class="text-gray-600 dark:text-gray-400">92%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-green-500 h-2 rounded-full" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700 dark:text-gray-300">Jenkins/GitLab CI</span>
+                                <span class="text-gray-600 dark:text-gray-400">88%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-green-500 h-2 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
+                    <h3 class="text-lg font-semibold mb-4 flex items-center">
+                        <i class="fas fa-code mr-3 text-purple-500"></i>
+                        Development
+                    </h3>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700 dark:text-gray-300">.NET Development</span>
+                                <span class="text-gray-600 dark:text-gray-400">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-purple-500 h-2 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1">
+                                <span class="text-gray-700 dark:text-gray-300">Python</span>
+                                <span class="text-gray-600 dark:text-gray-400">80%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-purple-500 h-2 rounded-full" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
+            <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+            <form class="space-y-4" novalidate>
+                <!-- <input type="email" placeholder="Email Address" required 
+                    class="w-full p-3 border rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent"> -->
+                <input type="text" placeholder="Object" required 
+                    class="w-full p-3 border rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                <textarea placeholder="Your Message" required rows="4" 
+                    class="w-full p-3 border rounded-md dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                <button type="submit" 
+                    class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    Send Message
+                </button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-6 text-gray-600 dark:text-gray-400">
+            2024 Laabidi Saif Eddine. All Rights Reserved.
+        </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
