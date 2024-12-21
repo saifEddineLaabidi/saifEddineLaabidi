@@ -28,16 +28,12 @@ I'm a DevOps Engineer passionate about cloud infrastructure and automation. Curr
 
 <div align="center">
   
-  ![Tech Stack](https://skillicons.dev/icons?i=gcp,kubernetes,gitlab,docker,terraform,ansible,maven,gradle,spring,dotnet,jenkins)
+  ![Tech Stack](https://skillicons.dev/icons?i=gcp,kubernetes,gitlab,docker,terraform,ansible,maven,gradle,jenkins)
   
   ![More Tech](https://skillicons.dev/icons?i=redhat,java,cs)
 
   <!-- Custom Icons for tools without official skillicons -->
-  <img src="https://www.vectorlogo.zone/logos/jfrog/jfrog-icon.svg" alt="JFrog" width="50" height="50"/>
-  <img src="https://www.vectorlogo.zone/logos/sonarqube/sonarqube-icon.svg" alt="SonarQube" width="50" height="50"/>
-  <img src="https://www.vectorlogo.zone/logos/sonatype/sonatype-icon.svg" alt="Nexus" width="50" height="50"/>
-  <img src="https://www.vectorlogo.zone/logos/podman/podman-icon.svg" alt="Podman" width="50" height="50"/>
-  
+  <img src="https://www.vectorlogo.zone/logos/jfrog/jfrog-icon.svg" alt="JFrog" width="50" height="50"/>  
 </div>
 
 ## 🏆 Certifications & Achievements
