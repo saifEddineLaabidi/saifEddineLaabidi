@@ -1,65 +1,92 @@
-# 👋 Hi, I'm Saif Eddine Laabidi
-### DevOps Engineer | Cloud Infrastructure Specialist
+# Hi there, I'm Laabidi Saif Eddine 👋
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=DevOps+Engineer;Cloud+Infrastructure+Specialist;Kubernetes+Enthusiast;Always+Learning&center=true&width=380&height=45">
-</p>
+<div align="center">
+  
+  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=DevOps+Engineer;Cloud+Infrastructure+Expert;Automation+Enthusiast;SAFe+for+Teams+Certified;Kubernetes+OpenShift+Engineer)
 
-## 🚀 About Me
 
-Passionate DevOps Engineer with expertise in automating, optimizing, and maintaining modern cloud infrastructure. I specialize in implementing CI/CD pipelines, container orchestration, and infrastructure as code.
+  [![Portfolio](https://img.shields.io/badge/Portfolio-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://xxxxxxxxxxxxxxxx)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saif-eddine-laabidi-41882a189)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:SeifEddine.Laabidi@esprit.tn)
+  
+</div>
 
-## 💻 Tech Stack
+## 👨‍💻 About Me
 
-### Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+I'm a DevOps Engineer passionate about cloud infrastructure and automation. Currently working at Sofrecom Tunisie (Orange Group), I specialize in:
 
-### Container Orchestration & DevOps Tools
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/ansible-%231A1918.svg?style=for-the-badge&logo=ansible&logoColor=white)
+- 🏗️ Infrastructure as Code with Terraform
+- ☁️ Google Cloud Platform
+- 🔄 CI/CD pipeline optimization
+- 🐳 Container orchestration with Kubernetes
+- 🚀 Automation and DevOps best practices
+- 🔴 Red Hat Enterprise Linux (RHEL) system administration
+- 🐋 Containerization with Docker and Podman
+- ⭕ OpenShift platform engineering
 
-### Monitoring & Logging
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
+## 🛠️ Tech Stack
 
-### Programming & Scripting
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+<div align="center">
+  
+  ![Tech Stack](https://skillicons.dev/icons?i=gcp,kubernetes,gitlab,docker,terraform,ansible,maven,gradle,spring,dotnet,jenkins)
+  
+  ![More Tech](https://skillicons.dev/icons?i=redhat,java,cs)
 
-## 🌟 Key Skills
+  <!-- Custom Icons for tools without official skillicons -->
+  <img src="https://www.vectorlogo.zone/logos/jfrog/jfrog-icon.svg" alt="JFrog" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/sonarqube/sonarqube-icon.svg" alt="SonarQube" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/sonatype/sonatype-icon.svg" alt="Nexus" width="50" height="50"/>
+  <img src="https://www.vectorlogo.zone/logos/podman/podman-icon.svg" alt="Podman" width="50" height="50"/>
+  
+</div>
 
-- CI/CD Pipeline Implementation
-- Infrastructure as Code (IaC)
-- Container Orchestration
-- Cloud Architecture & Migration
-- Automation & Scripting
-- System Monitoring & Logging
-- Security Implementation
-- High Availability Design
-- Performance Optimization
+## 🏆 Certifications & Achievements
 
-## 📈 GitHub Stats
+<div align="center">
+  
+  [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://www.credly.com/users/hamza-taoujouti.39b33a11)
+  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+  ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+  ![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+  ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+  ![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
+  ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+  
+</div>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=saifEddineLaabidi&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
+## 📊 GitHub Stats
 
-## 🤝 Connect with Me
+<div align="center">
+  
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=saifEddineLaabidi&show_icons=true&theme=tokyonight)
+  
+  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=saifEddineLaabidi&theme=tokyonight)
+  
+  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=saifEddineLaabidi&layout=compact&theme=tokyonight)
+  
+</div>
 
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saif-eddine-laabidi/)
+## 🌱 Current Focus
 
-## 📫 How to reach me
+- Advancing cloud infrastructure automation
+- Implementing GitOps practices
+- Exploring cloud-native technologies
+- Enhancing CI/CD pipelines
 
-- 💼 LinkedIn: [Saif Eddine Laabidi](https://www.linkedin.com/in/saif-eddine-laabidi/)
-- 📧 Email: [votre.email@example.com]
+## 📫 Let's Connect
+
+<div align="center">
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saif-eddine-laabidi-41882a189)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/saifEddineLaabidi)
+  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:SeifEddine.Laabidi@esprit.tn)
+  [![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://xxxxxxxxxxxxxx)
+  
+</div>
 
 ---
-
-⭐️ From [saifEddineLaabidi](https://github.com/saifEddineLaabidi)
+<div align="center">
+  
+  ![Profile Views](https://komarev.com/ghpvc/?username=saifEddineLaabidi&color=blue&style=for-the-badge)
+  
+</div>
